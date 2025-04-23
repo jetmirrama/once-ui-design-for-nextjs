@@ -10,6 +10,7 @@ import { Meta, Schema } from "@/once-ui/modules";
 
 import { Geist } from "next/font/google";
 import { Geist_Mono } from "next/font/google";
+import { Orbitron } from "next/font/google";
 
 const primary = Geist({
   variable: "--font-primary",
@@ -21,6 +22,13 @@ const code = Geist_Mono({
   variable: "--font-code",
   subsets: ["latin"],
   display: "swap",
+});
+
+const logoFont = Orbitron({
+  variable: "--font-logo", // This will be used in CSS
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "700"], // Include only the weights you need
 });
 
 type FontConfig = {
