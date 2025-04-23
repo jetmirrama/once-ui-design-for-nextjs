@@ -64,10 +64,13 @@ export default function Home() {
   const links = [
     {
       href: "https://linkedin.com/",
-      title: "Gran",    },
+      title: "Gran",
+      description: "LinkedIn Profile" // Added description property
+    },
     {
       href: "https://linkedin.com",
       title: "John",
+      description: "LinkedIn Profile" // Added description property
     },
   ];
 
