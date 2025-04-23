@@ -83,3 +83,5 @@ const social = {
 };
 
 export { baseURL, style, meta, og, schema, social, effects };
+
+*/
